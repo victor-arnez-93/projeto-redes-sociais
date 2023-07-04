@@ -1,0 +1,13 @@
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    Parâmetros para deixar o conteúdo sempre centralizado independente do tamanho da tela.
