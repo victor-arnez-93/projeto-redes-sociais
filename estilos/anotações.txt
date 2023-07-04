@@ -1,13 +1,38 @@
-main {
+    main {
     height: 100vh;
     position: relative;
 }
 
-section#telefone {
+    section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
 
-    Parâmetros para deixar o conteúdo sempre centralizado independente do tamanho da tela.
+Parâmetros para deixar o conteúdo sempre centralizado independente do tamanho da tela.
+
+Para colocar a tela de home dentro do celular, foi criado um arquivo separado home.html, e la definido um estilo inline: 
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: black url('imagens/tela-home.jpg') no-repeat top center;
+        background-size: cover;
+    }
+    </style>
+Já no arquivo principal só criar um iframe dentro do main e colocar a url ligando a ''home.html''
+
+
+
+
+section#redes-sociais img {
+    box-sizing: border-box;
+}
+
+Colocar isso para fazer uma borda quando passar o mouse em cima de cada logo, sem que movimente as outras também.
