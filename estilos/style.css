@@ -46,8 +46,7 @@ section#redes-sociais {
 @media screen and (max-width: 580px) {
     section#redes-sociais {
     position: absolute;
-    bottom: 280px;
-    left: 400px;
+    z-index: 1;
     }
   }
 
