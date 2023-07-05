@@ -36,3 +36,12 @@ section#redes-sociais img {
 }
 
 Colocar isso para fazer uma borda quando passar o mouse em cima de cada logo, sem que movimente as outras também.
+
+
+
+::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+}
+
+Parâmetro para tirar a scrollbar da imagem dentro do Iphone
